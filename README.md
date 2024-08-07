@@ -27,11 +27,13 @@ pip install -r requirements.txt
 ```shell
 export OPENAI_API_KEY=<openai-api-key>
 ```
-4. Run the code using
+4. Install the openaci package using `pip install -e .` for an editable install 
+5. Run the code using
 ```shell
-python src/app.py
+python src/cli_app.py
 ```
-5. Write whatever concept you want to click in the terminal.
+6. Write an instruction for the agent as query.
+7. You can interrupt the agent at any time with a keyboard interrupt (Ctrl+C) in the terminal used to run it.
 
 Please remember to review and modify the code according to your specific use case and requirements. It is highly recommended to thoroughly test the code in a controlled environment before using it in any production or critical systems.
 
